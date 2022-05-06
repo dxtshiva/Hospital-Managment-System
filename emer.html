@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <script>
+        function ValidateForm() {
+            var name  = document.getElementsById("Name").value;
+            alert('Name is required.'); 
+        /*if (name=='') { 
+            alert('Name is required.'); 
+            //document.getElementsById("Name").focus();
+             }
+        else if (document.getElementsById("FromEmailAddress").value == "") { 
+            alert('Email address is required.'); 
+            document.getElementsById("FromEmailAddress").focus(); 
+            return false; }
+        else if (document.getElementsById("FromEmailAddress").value.indexOf("@") < 1 || document.getElementsById("FromEmailAddress").value.indexOf(".") < 1) {
+             alert('Please enter a valid email address.'); 
+             document.getElementsById("FromEmailAddress").focus(); 
+             return false; }
+        else if (document.getElementsById("Comments").value == "") { 
+            alert('Please enter the description for you issue.'); 
+            document.getElementsById("Description").focus(); 
+            return false; }
+            else{
+                alert('Please do not panic. Help is reaching to you as soon as possible');
+                return true;
+            }*/
+        }
+        
+        </script>
+<title> Emergency</title>
+<link rel="stylesheet" type="text/css" href="Home.css">
+</head>
+<body>
+            <div class="Grid-Container"><div>
+                        <img src="logo2.gif" class="img1"></div>
+                    <div> <table class="view"> <tr><td rowspan="3"><img class="img2" src="nabl.jpg"></td>
+                        <td class="td">NABL Certified</td></tr>
+                        <tr><td class="td">   -------------------</td></tr>
+                        <tr><td class="td">
+                            <p>India's First</p></td></tr>
+                        </table></div>
+                        <div> <table class="view"> <tr><td rowspan="3"><img class="img2" src="plus.png"></td>
+                            <td class="td">For Emergency</td></tr>
+                            <tr><td class="td">   ----------------------</td></tr>
+                            <tr><td class="td">
+                                <p>+91-542-2225471</p></td></tr>
+                            </table></div>
+                            <div> <table class="view"> <tr><td rowspan="3"><img class="img2" src="call.png"></td>
+                                <td class="td">Call Us At</td></tr>
+                                <tr><td class="td">   ---------------------</td></tr>
+                                <tr><td class="td">
+                                    <p>+91-9876543210</p></td></tr>
+                                </table></div>
+                            </div>
+                            <hr size="3px" color='red'>
+                            <div class="Grid-Container1">
+                                <div><a class="c" href="Home.html">HOME</a></div>
+         <div><a class="c" href="ABOUT_HMS.html">ABOUT</a></div>
+         <div class="dropdown"><a class="c" href="#">DEPARTMENTS</a>
+            <div class="dropdown-content">
+                <a href="physio.html">Physiology</a>
+                <a href="neuro.html">Neurology</a>
+                <a href="OHPHY.html">Opthalmology</a>
+                <a href="emer.html">Emergency</a>
+              </div></div>
+        <div><a class="c" href="emer.html">EMERGENCY</a></div>
+        <div><a class="c" href="Doctors_Details.html">DOCTORS</a></div>
+        <div><a class="c" href="contactus.html">CONTACT US</a></div>
+        <div><a class="c" href="SignUp1.html">SIGNUP</a></div>
+        <div><a class="c" href="Welcome.html" onclick="alert('Thank You For Visiting Us. Have a great day!');">LOGOUT</a></div>  </div><br>
+<center><img src="e3.png"  height="80" width=" 200" ></center>
+<form method="get" >
+<center>
+<p><font color="black"><centre>
+Please fill the below form. Our team will contact you in next 5 minutes. <br><br>
+<table>
+    <table class="body" style="width:590px;border:0;" cellpadding="8" cellspacing="0">
+    <tr> <td>
+    <text-align : center><label for="Name">Name*:</label>
+    </td> <td>
+    <input id="Name" type="text" maxlength="60" style="width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="PhoneNumber">Phone number*:</label>
+    </td> <td>
+    <input id="PhoneNumber" type="text" maxlength="43" style="width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="FromEmailAddress">Email address*:</label>
+    </td> <td>
+    <input id="FromEmailAddress" type="text" maxlength="90" style="width:250px;" />
+    </td> </tr> <tr> <td>
+    <label for="Comments">Description*:</label>
+    </td> <td>
+    <textarea id="Comments" rows="7" cols="40" style="width:350px;"></textarea>
+    </td> </tr> <tr> <td>
+                    
+    </td> <td>
+    <input class="btn" type="submit" value="Submit" onclick="ValidateForm();" location.href='Home.html'"/>
+    
+    </td> </tr>
+    </table>
+    </table>
+</centre></font></p></center></form>
+<img src="e1.jpg"  height="130" width=" 250" align="left">
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+ <img  src="e2.jpg" height="130" width="280"  align="center">
+<br>
+<br>
+
+ <div class="bottom" 
+          style="background-color:gray">
+     
+          <center>Copyright @ FAMILY CLINIC | All Rights Reserved  . 
+<BR>        
+       
+   FOR GENERAL INFORMATION:  110 428 357         
+         
+              </center>
+          
+        </div>
+
+
+</body></html>

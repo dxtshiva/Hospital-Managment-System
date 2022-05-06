@@ -1,0 +1,37 @@
+<html>
+<head>
+    <title>Login</title>
+    <script>
+         function checking(){
+             var email=document.getElementById("email").value;
+             var pwd=document.getElementById("password").value;
+    if(email=="admin"&& pwd=="12345")
+    location.href="Home.html";
+    else if(email=="shiva" && pwd=="147258")
+    alert("Access denied\n Unauthorised User");
+    else if(email=='' || pwd=='')
+    alert("Username and password cannot be blank");
+    else
+    alert("Incorrect username or password");
+}
+    </script>
+<link href='login.css' rel='stylesheet' type='text/css'>
+</head><body>
+<form method="post" action="login.html">
+<div class="box">
+<img src="log.png"><br>
+<h1>Dashboard</h1><br>
+<input type="text" name="email" placeholder="Username" id="email" class="email" >
+  <br>
+<input type="password" name="password" placeholder="Password" id="password"  class="email" >
+  <br><br>
+<a onclick="checking();"><div class="btn">Sign In</div></a> <!-- End Btn -->
+
+<a href="SignUp1.html"><div id="btn2">Sign Up</div></a> <!-- End Btn2 -->
+  
+</div> <!-- End Box -->
+  
+</form>
+
+
+</body></html>
